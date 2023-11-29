@@ -1,5 +1,27 @@
 # human-code
-Ciascun team dovrà fare un brainstorming per analizzare e scomporre il problema assegnato e produrne il diagramma di flusso.
-Una volta raggiunto un risultato soddisfacente avvisate uno dei vostri tutor ed esportate il diagramma in formato immagine (JPG o PNG). Caricate quindi il diagramma nella vostra repo, come avete sempre fatto con i file html e css.
-Avete 1 ora di tempo per ragionare sul vostro esercizio ed elaborare il diagramma di flusso, poi intorno alle 16:30 ci si ritroverà tutti assieme per esporre agli altri team quanto prodotto e discuterne insieme.
-Attendete quindi la comunicazione dei tutor con orario e link zoom a cui collegarsi.
+Scansionare un documento su più fogli fronte-retro
+La pratica perduta
+Finalmente sono riuscito a ritrovare quella pratica che sembrava essere svanita nel nulla! Che poi, possibile che nel 2021 ci siano ancora così tanti fogli di carta in giro per l’ufficio?! Ora ci penso io: una bella scansione e l’archiviamo in formato digitale, così la prossima volta so già dove andare a cercarla! L’unica pecca è che lo scanner non ha il fronte-retro automatico e mi tocca farlo a mano. Va beh, poco male, almeno sono pochi fogli!
+
+SVILUPPO
+
+-Prendo la pratica
+-Vado allo scanner
+-LO SCANNER E' ACCESO?
+--SE SI
+---Procedo con la scansione
+--ALTRIMENTI
+---Accendo lo scanner
+---Torno al punto 3
+-LO SCANNER FA IL FRONTE E RETRO?
+--SE SI
+---Scansiono fronte e retro
+--ALTRIMENTI
+---Scansiono il fronte
+---Scansiono il retro
+-ESISTE LA CARTELLA DEI FILE SCANSIONATI?
+--SE SI
+---Aggiungi ai file scansionati
+--ALTRIMENTI
+---Crea cartella "file scansionati"
+---Torna a punto 15
